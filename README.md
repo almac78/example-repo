@@ -17,7 +17,8 @@ A simple front-end e-commerce demo for a stationery shop called "The Doodle Depo
 ## Features
 **Product Catalogue**
 
-<img width="605" height="570" alt="Products Page" src="https://github.com/user-attachments/assets/fc224716-5c10-44a2-8918-2110608f1699" />
+<img width="605" height="570" alt="Products Page" src="https://github.com/user-attachments/assets/3f60421e-01c7-4d20-b5a8-633f5632281c" />
+
 
 - Four demo products (colour pencils, eraser, pen, pencil).
 - Products rendered dynamically from a JavaScript array.
@@ -26,7 +27,7 @@ A simple front-end e-commerce demo for a stationery shop called "The Doodle Depo
 
 **Shopping Cart**
 
-<img width="470" height="174" alt="Shopping Cart" src="https://github.com/user-attachments/assets/871d4df7-738c-44c7-8efc-6b56201621b2" />
+<img width="470" height="174" alt="Shopping Cart" src="https://github.com/user-attachments/assets/802443b8-0e93-4007-9020-7b015964e827" />
 
 - Items stored in 'localStorage' so the cart persists across page reloads.
 - "Remove" button on each cart item.
@@ -36,24 +37,27 @@ A simple front-end e-commerce demo for a stationery shop called "The Doodle Depo
 
 **User Login & Cookies**
 
-<img width="462" height="209" alt="Screenshot 2025-12-05 at 10 02 14" src="https://github.com/user-attachments/assets/0996a509-d9f5-4e1d-ac27-790b3fd37fbf" />
+<img width="467" height="217" alt="Initial Login" src="https://github.com/user-attachments/assets/7f23a0bf-fcff-4ba0-86bb-36fc4e1c8150" />
 
 - Prompts the user for their name on first load, and stores it in a cookie.
 
- <img width="469" height="154" alt="Welcome back" src="https://github.com/user-attachments/assets/436fced8-0012-49a8-9d76-599d7baef2fe" />
- 
+<img width="469" height="154" alt="Welcome back" src="https://github.com/user-attachments/assets/3ab092de-42be-4b8c-9cf4-c6dd8dc99b3d" />
+
+
 - Greets user with "Welcome back, \<name\>!" on subsequent visits.
 
  **Caching & Performance**
 
- <img width="467" height="178" alt="Cookie Warning" src="https://github.com/user-attachments/assets/671bcc34-7830-4474-9842-4234f8de57d5" />
+<img width="467" height="178" alt="Cache notification" src="https://github.com/user-attachments/assets/ffeffe32-605c-4781-8fa6-7e39962137b7" />
+
  
  - Alerts the user that the page uses cached product images and styles to speed up loading.
  - Service worker-style caching logic for HTML, JS, CSS and product images using the Cache API.
 
 **Session-based Font Preference**
 
-<img width="254" height="61" alt="Font Selection" src="https://github.com/user-attachments/assets/14cc79df-230c-451a-a07e-96b919154aaa" />
+<img width="254" height="61" alt="Font Selection" src="https://github.com/user-attachments/assets/db589062-0faa-4b1b-a1fd-76390f061e40" />
+
 
 - Dropdown for selecting a font (Arial, Courier New, Georgia, Times New Roman, Verdana).
 - Selection is stored in sessionStorage and applied via a CSS custom property, affecting the main font for the session only.
