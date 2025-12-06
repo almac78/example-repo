@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Doodle Depot</title>
+    <!--Link to Bootstrap CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!--Link to custom CSS file for styling-->
+    <link rel="stylesheet" href="doodleDepot.css" />
+  </head>
+  <body>
+    <!--Header section with logo, main title and navigation menu-->
+    <header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-2">
+            <img
+              src="Images/DoodleDepot Logo.png"
+              alt="Doodle Depot Logo"
+              class="headerLogo"
+            />
+          </div>
+          <div class="col-md-7">
+            <h1>THE DOODLE DEPOT</h1>
+          </div>
+          <div class="col-md-3">
+            <nav>
+              <button class="nav-button">Home</button>
+              <button class="nav-button">Products</button>
+              <button class="nav-button">Cart</button>
+            </nav>
+            <!--Font preference dropdown-->
+            <div class="fontDropdown">
+              <label for="fontSelect">Font:</label>
+              <select id="fontSelect">
+                <option value="Arial">Arial</option>
+                <option value="Courier New">Courier New</option>
+                <option value="Georgia">Georgia</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Verdana">Verdana</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Main content sections for products and shopping cart-->
+    <section class="productsPage">
+      <div class="container">
+        <h1 id="sectionTitles">PRODUCTS</h1>
+        <!-- Product cards will be dynamically inserted here -->
+        <div id="productCards" class="row"></div>
+      </div>
+    </section>
+    <section class="shoppingCart">
+      <div class="container">
+        <h1 id="sectionTitles">SHOPPING CART</h1>
+        <!-- Shopping cart items will be dynamically inserted here -->
+        <div id="cartItems" class="row"></div>
+      </div>
+      <div class="cartActions">
+        <button id="clearCart" class="clearCartButton">Clear Cart</button>
+      </div>
+    </section>
+    <!--Section to display the total price of items in the cart-->
+    <section class="totalPriceSection">
+      <div class="container">
+        <h1 id="sectionTitles">
+          <span id="totalPrice">0.00</span>
+        </h1>
+      </div>
+    </section>
+
+    <!--Link to custom JavaScript file for functionality-->
+    <script src="doodleDepot.js"></script>
+  </body>
+</html>
